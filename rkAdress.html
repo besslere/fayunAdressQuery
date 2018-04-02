@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>入库地址和非工商名址查询手机端</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--头部区域-->
+<header id="header">
+    <div class="topbar">
+        <div class="container text-center">
+            <a href="index.html" class="logo center-block rk-logo"></a>
+            <div class="panel panel-default">
+                <div class="panel-heading rk-title">入库地址查询</div>
+                <div class="panel-body">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="diqu">地区</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">地区</div>
+                                <input type="text" class="form-control" id="diqu" placeholder="选择地区">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="fenqu">分区</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">分区</div>
+                                <input type="text" class="form-control" id="fenqu" placeholder="选择地区">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-cx">查询</button>
+                        <a href="index.html" class="btn btn-primary">返回</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--结果展示-->
+<div class="ku ku-rk" style="display: none">
+    <div class="container">
+        <div class="rkResult">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped tb">
+                    <colgroup>
+                        <col class="col-xs-1">
+                        <col class="col-xs-7">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>地区</th>
+                        <th>分区</th>
+                        <th>入仓地址</th>
+                        <th>入仓服务费</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>香港島</td>
+                        <td>灣仔區</td>
+                        <td>香港仔黃竹坑道29號維他大廈13樓</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>香港島</td>
+                        <td>灣仔區</td>
+                        <td>香港仔大道232號城都工業大廈二樓</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>香港島</td>
+                        <td>灣仔區</td>
+                        <td>灣仔軒尼斯道8-21號中港大廈</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>香港島</td>
+                        <td>灣仔區</td>
+                        <td>灣仔寶業大廈A座10樓08</td>
+                        <td>300</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

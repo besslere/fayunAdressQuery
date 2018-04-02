@@ -1,0 +1,88 @@
+/*
+ * 入库地址和非工商名址查询--CSS
+ * @Author:Zou Yuan
+ * @Date:2017-6-2
+*/
+
+/*公共样式*/
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+
+.tb{
+    margin-bottom: 0;
+}
+
+/*头部区域*/
+
+#header > .topbar{
+    height: 160px;
+}
+
+#header > .topbar > .container > .logo{
+    width: 310px;
+    height: 50px;
+    background: url("../img/logo.png") no-repeat center center/cover;
+    margin: 150px auto 30px;
+}
+
+#header > .topbar > .container > .panel > .rk-title{
+    font-size: 18px;
+}
+
+/*查询*/
+
+#header > .topbar > .container > .rk-logo{
+    margin-top: 20px;
+}
+
+/*结果查询*/
+
+.ku-rk{
+    margin-top: 100px;
+}
+
+.ku-fgs{
+    margin-top: 150px;
+}
+
+.fg{
+    float: left;
+    padding: 10px;
+}
+
+/*增加*/
+
+@media screen and (max-width:768px) {
+    .fg{
+        float: left;
+        padding: 10px;
+    }
+    .ku-rk{
+        margin-top: 220px;
+    }
+    .ku-fgs{
+        margin-top: 380px;
+    }
+    .fi .form-group{
+        margin-bottom: 0;
+    }
+    .fi .form-group:last-child{
+        padding: 0;
+        float: none;
+    }
+}

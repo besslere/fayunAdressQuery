@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>入库地址和非工商名址查询手机端</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--头部区域-->
+<header id="header">
+    <div class="topbar">
+        <div class="container text-center">
+            <a href="index.html" class="logo center-block rk-logo"></a>
+            <div class="panel panel-default">
+                <div class="panel-heading rk-title">非工商名址查询</div>
+                <div class="panel-body">
+                    <form class="form-inline fi">
+                        <div class="form-group fg">
+                            <label class="sr-only" for="diqu">地区</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">地区</div>
+                                <input type="text" class="form-control" id="diqu" placeholder="选择地区">
+                            </div>
+                        </div>
+                        <div class="form-group fg">
+                            <label class="sr-only" for="fenqu">分区</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">分区</div>
+                                <input type="text" class="form-control" id="fenqu" placeholder="选择地区">
+                            </div>
+                        </div>
+                        <div class="form-group fg">
+                            <label class="sr-only" for="shiqu">市区</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">市区</div>
+                                <input type="text" class="form-control" id="shiqu" placeholder="选择地区">
+                            </div>
+                        </div>
+                        <div class="form-group fg">
+                            <label class="sr-only" for="jiedao">街道</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">街道</div>
+                                <input type="text" class="form-control" id="jiedao" placeholder="选择地区">
+                            </div>
+                        </div>
+                        <div class="form-group fg">
+                            <label class="sr-only" for="dasha">大厦</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">大厦</div>
+                                <input type="text" class="form-control" id="dasha" placeholder="选择地区">
+                            </div>
+                        </div>
+                        <div class="form-group fg">
+                            <button type="button" class="btn btn-primary btn-cx">查询</button>
+                            <a href="index.html" class="btn btn-primary">返回</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--结果展示-->
+<div class="ku ku-fgs" style="display: none">
+    <div class="container">
+        <div class="fgsResult">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped tb">
+                    <colgroup>
+                        <col class="col-xs-1">
+                        <col class="col-xs-7">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>地区</th>
+                        <th>分区</th>
+                        <th>市区</th>
+                        <th>街道名称</th>
+                        <th>大厦名称</th>
+                        <th>地址属性</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>香港島</td>
+                        <td>中西区</td>
+                        <td>金钟区</td>
+                        <td>法院道</td>
+                        <td>英国文化协会</td>
+                        <td>商业</td>
+                    </tr>
+                    <tr>
+                        <td>香港島</td>
+                        <td>中西区</td>
+                        <td>金钟区</td>
+                        <td>法院道</td>
+                        <td>英国文化协会</td>
+                        <td>商业</td>
+                    </tr>
+                    <tr>
+                        <td>香港島</td>
+                        <td>中西区</td>
+                        <td>金钟区</td>
+                        <td>法院道</td>
+                        <td>英国文化协会</td>
+                        <td>商业</td>
+                    </tr>
+                    <tr>
+                        <td>香港島</td>
+                        <td>中西区</td>
+                        <td>金钟区</td>
+                        <td>法院道</td>
+                        <td>英国文化协会</td>
+                        <td>商业</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+</script>
+</body>
+</html>
